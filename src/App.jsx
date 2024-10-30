@@ -58,6 +58,7 @@ const App = () => {
                             onChange={(e) => setEditTitle(e.target.value)}
                             className="px-2 py-1 text-yellow-100 outline-none rounded-xl bg-zinc-700"
                         />
+                      
                     ) : (
                         <h1
                             className={`${
